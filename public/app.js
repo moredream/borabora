@@ -1,6 +1,6 @@
       // FirebaseUI config.
       var uiConfig = {
-        signInSuccessUrl: '<url-to-redirect-to-on-success>',
+        signInSuccessUrl: 'https://beautyone-85a80.firebaseapp.com',
         signInOptions: [
           // Leave the lines as is for the providers you want to offer your users.
           firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -9,7 +9,7 @@
           firebase.auth.PhoneAuthProvider.PROVIDER_ID
         ],
         // Terms of service url.
-        tosUrl: '<your-tos-url>'
+        tosUrl: 'https://beautyone-85a80.firebaseapp.com'
       };
 
       // Initialize the FirebaseUI Widget using Firebase.
